@@ -1,0 +1,130 @@
+/*공통스타일*/
+*{margin:0; padding:0;}
+body{
+	font:15px "맑은 고딕";
+	color:#222;
+	background:#aaa;
+}
+
+ul{list-style:none;}
+
+a{color:#222;}
+
+a:hover{border-bottom:1px dashed;}
+/*레이아웃 스타일*/
+#wrapper{
+	width:100%;
+	margin:0 auto;
+	background:white;
+}
+
+header{
+	background:#fa0;
+	text-align:center;
+	width:100%;
+	min-width:1000px;
+	margin:0 auto;
+}
+
+#container{
+	width:1000px;
+	margin:0 auto;
+	overflow:auto;
+}
+	nav{
+		width:25%;
+		float:left;
+	}
+	section{
+		width:50%;
+		background:#eee;
+		float:left;
+		padding:10px;
+		box-sizing:border-box;
+	}
+	aside{
+		width:25%;
+		float:left;
+		padding:10px;
+		box-sizing:border-box;
+	}
+	
+footer{
+	background:#123456;
+	color:white;
+	text-align:center;
+	padding:20px 0;
+	width:100%;
+	min-width:1000px;
+	margin:0 auto;
+}
+
+/*header 영역 상세스타일*/
+header h1{
+	color:white;
+	font-size:8em;
+	line-height:1.3;
+	padding-bottom:10px;
+}
+
+header h1 span{
+	font-size:22px;
+	display:block;
+}
+
+header p{
+	background:#ccc;
+	padding:5px 0;
+}
+
+/*nav 영역 상세스타일*/
+nav dl{
+	line-height:2.5;
+	font-weight:bold;
+}
+nav dl dt{
+	background:#900;
+	color:white;
+	font-size:1.2em;
+	padding:5px 20px;
+	
+}
+nav dl dd{
+	padding:5px 20px;
+}
+nav dl dd a{}
+
+/*section 영역 상세스타일*/
+section h2{
+	background:#123456;
+	color:#eee;
+	padding:5px;
+	font-size:1.2em;
+	margin-top:20px;
+}
+
+section h2:first-child{margin-top:0;}
+
+section h2+p{
+	padding:20px 0;
+	font-size:1.1em;
+	font-weight:bold;
+}
+
+/*aside 영역 상세스타일*/
+aside h2{line-height:1.5;}
+aside h2 span{
+	display:block;
+	text-decoration:underline;
+	color:#999;
+}
+aside h2 span.love{color:#f90}	/*aside h2 .love{}*/
+aside ul{
+	margin-top:20px;
+	font-size:0.9em;
+}
+aside ul li{margin-bottom:15px;}
+aside ul li a{font-weight:bold;}
+
+/*footer 영역 상세스타일*/	
+footer a{color:white;}
